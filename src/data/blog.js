@@ -1,20 +1,24 @@
+// data/blog.js
 export const blog = [
   {
-    title: "FinCEN's New Beneficial Ownership Rule",
-    excerpt: 'Key implications for MSBs and reporting companies.',
+    title: "Bookkeeping & accounts",
+    excerpt: 'Ongoing bookkeeping, bank reconciliation, management accounts, and financial reporting for SMEs and hospitality businesses.',
     category: 'AML',
     icon: '📰',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
-    title: 'AI in Compliance: Opportunities & Risks',
-    excerpt: 'How machine learning is transforming regulatory monitoring.',
+    title: 'Tax & compliance',
+    excerpt: 'Corporation Tax, Self-Assessment, VAT (MTD), payroll, and all HMRC and Companies House submissions.',
     category: 'Tech',
     icon: '💻',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
-    title: 'Cross-Border Payments: 2025 Outlook',
-    excerpt: 'Regulatory trends shaping the future of payments.',
+    title: 'Regulatory correspondence',
+    excerpt: 'Direct correspondence management with FCA and HMRC including verification submissions, information requests, and supervisory responses.',
     category: 'Global',
     icon: '🌍',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
 ];

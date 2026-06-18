@@ -21,15 +21,29 @@ const Blog = () => {
               whileHover={{ y: -8 }}
               className="bg-white rounded overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-300"
             >
-              <div className="h-48 bg-gradient-to-br from-primary-navy/20 to-primary-navy/40 flex items-center justify-center relative">
-                <span className="text-5xl text-white/30">{post.icon}</span>
-                <span className="absolute top-4 left-4 bg-gold text-primary-text font-semibold px-4 py-1 rounded-full text-xs">
+              {/* Image Section */}
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src={post.image} 
+                  alt={post.title}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+                {/* Gradient Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                {/* Category Badge */}
+                <span className="absolute top-4 left-4 bg-gold text-primary-text font-semibold px-4 py-1 rounded-full text-xs shadow-lg">
                   {post.category}
                 </span>
+                {/* Icon */}
+                <span className="absolute bottom-4 right-4 text-3xl text-white/60">
+                  {post.icon}
+                </span>
               </div>
+              
+              {/* Content Section */}
               <div className="p-6">
-                <h4 className="text-xl font-semibold mb-2">{post.title}</h4>
-                <p className="text-secondary-text text-sm mb-4">{post.excerpt}</p>
+                <h4 className="text-xl font-semibold mb-2 text-primary-navy">{post.title}</h4>
+                <p className="text-secondary-text text-sm mb-4 leading-relaxed">{post.excerpt}</p>
                 <a
                   href="#"
                   className="text-gold font-semibold hover:text-[#c4a032] transition-colors inline-flex items-center gap-2"

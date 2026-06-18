@@ -60,9 +60,9 @@ const Navbar = () => {
             >
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="text-2xl font-bold text-white tracking-tight"
+                className="text-1xl font-bold text-white tracking-tight"
               >
-                Zem Global<span className="text-gold">Consultant</span>
+                Zem Global<span className="text-gold"> Consultant</span>
               </motion.div>
             </ScrollLink>
 

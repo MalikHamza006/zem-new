@@ -30,7 +30,7 @@ const LoadingScreen = () => {
           transition={{ delay: 0.3 }}
           className="text-2xl font-bold text-white"
         >
-          Apex<span className="text-gold">Comply</span>
+          Zem Global<span className="text-gold"> Consultant</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}

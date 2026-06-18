@@ -3,32 +3,32 @@ import { FaBalanceScale, FaUniversity, FaUserShield, FaSearchDollar, FaBook, FaC
 export const services = [
   {
     icon: FaBalanceScale,
-    title: 'AML & Compliance Consulting',
-    description: 'Comprehensive AML program design and regulatory alignment.',
+    title: 'MSB Compliance & Registration',
+    description: 'Full support for Money Service Business compliance — FINTRAC registration, AML/CFT programme setup, transaction monitoring, and ongoing regulatory oversight .',
   },
   {
     icon: FaUniversity,
-    title: 'MSB & FinTech Licensing',
-    description: 'End-to-end licensing support for money service businesses.',
+    title: 'FCA Regulatory Applications',
+    description: 'Expert preparation and submission of SPI and API applications. We handle all FCA correspondence, helping you achieve authorisation with confidence.',
   },
   {
     icon: FaUserShield,
-    title: 'Outsourced MLRO & Compliance',
-    description: 'Dedicated MLRO and compliance officer services.',
+    title: 'AML/CFT Policy & Review',
+    description: 'Comprehensive AML policy development, gap analysis, risk assessments, internal controls review, and compliance manual preparation tailored to your business.',
   },
   {
     icon: FaSearchDollar,
-    title: 'Internal Audit',
-    description: 'Independent audit and risk assessment frameworks.',
+    title: 'Bookkeeping & Accounts',
+    description: 'Accurate, timely bookkeeping for restaurants, hospitality businesses, and SMEs. We keep your finances organised and HMRC-ready, so you can focus on running your business.',
   },
   {
     icon: FaBook,
-    title: 'Accounting & Bookkeeping',
-    description: 'Accurate financial records and tax preparation.',
+    title: 'Tax Consultancy & Advisory',
+    description: 'Strategic tax planning, HMRC correspondence, compliance reviews, and advisory services designed to minimise your tax burden and keep you on the right side of the law.',
   },
   {
     icon: FaChartLine,
-    title: 'Business Advisory',
-    description: 'Strategic growth and operational advisory services.',
+    title: 'Regulatory Reporting',
+    description: 'Support with all regulatory reporting obligations — Suspicious Transaction Reports, Large Cash Transaction Reports, HMRC verifications, and more.',
   },
 ];

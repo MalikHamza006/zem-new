@@ -23,7 +23,7 @@ function App() {
   // Update document title and meta tags dynamically
   useEffect(() => {
     // Set page title
-    document.title = 'ApexComply | Compliance & Advisory Partner';
+    document.title = 'Zem Global Consultant';
     
     // Update meta tags
     const metaDescription = document.querySelector('meta[name="description"]');
@@ -33,7 +33,7 @@ function App() {
     
     // Open Graph
     const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.content = 'ApexComply | Compliance & Advisory Partner';
+    if (ogTitle) ogTitle.content = 'Zem Global Consultant';
     
     const ogDescription = document.querySelector('meta[property="og:description"]');
     if (ogDescription) ogDescription.content = 'Expert guidance for MSBs, FinTechs, and payment institutions. 360° regulatory solutions.';

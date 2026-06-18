@@ -4,7 +4,7 @@ import App from './App';
 import './index.css';
 
 // Update title and meta tags
-document.title = 'ApexComply | Compliance & Advisory Partner';
+document.title = 'Zem Global Consultant';
 
 // Update meta description
 const metaDescription = document.querySelector('meta[name="description"]');
